@@ -1,0 +1,11 @@
+stages:
+- name: build
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: ssxs/maven3-jdk8-ssxs:${CICD_EXECUTION_SEQUENCE}
+      pushRemote: true
+      registry: registry-vpc.cn-shenzhen.aliyuncs.com
+timeout: 60
+notification: {}
