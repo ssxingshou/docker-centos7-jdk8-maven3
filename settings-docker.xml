@@ -23,7 +23,7 @@
       <mirrorOf>central</mirrorOf> 
 	  <id>maven-public</id>
 	  <name>maven-public</name>
-	  <url>http://nexus.ssxingshou.com/repository/maven-public/</url>
+	  <url>http://nexus.tongbor.com/repository/maven-public/</url>
     </mirror>  
   </mirrors>
   
