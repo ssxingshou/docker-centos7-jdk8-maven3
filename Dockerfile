@@ -1,4 +1,4 @@
-FROM registry.cn-shenzhen.aliyuncs.com/ssxs-docker/ssxs-repo/ssxs-centos7-jdk8:1
+FROM registry.cn-shenzhen.aliyuncs.com/ssxs-docker/ssxs-centos7-jdk8:1
 
 MAINTAINER Base Image Maven3 <haixiang.dai@ssxingshou.com>
 
